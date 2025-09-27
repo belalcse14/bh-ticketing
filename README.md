@@ -1,16 +1,33 @@
-# React + Vite
+# Answer to the questions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+.........................................................................
 
-Currently, two official plugins are available:
+## What is JSX, and why is it used?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ANS:
 
-## React Compiler
+**=>** JSX (JavaScript XML), is a syntax extension for JavaScript that allows developers to write HTML-like code directly within their JavaScript files.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What is the difference between State and Props?
 
-## Expanding the ESLint configuration
+### ANS:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**=>** props come from the outside (parent) and are immutable, while state is internal and mutable.
+
+## What is the useState hook, and how does it work?
+
+### ANS:
+
+**=>** The useState hook in React is a function that allows functional components to manage local state—data that can change over time and affect the component's UI.
+
+## How can you share state between components in React?
+
+### ANS:
+
+**=>** Sharing state between components in React can be achieved through several methods, one of this is "Lifting State Up". This is the most common and fundamental method for sharing state between sibling components or a parent and its direct children.
+
+## How is event handling done in React?
+
+### ANS:
+
+**=>** In React, event handling is primarily achieved by attaching event listeners to specific DOM elements using camelCase naming conventions for event handlers (onClick, onChange).
